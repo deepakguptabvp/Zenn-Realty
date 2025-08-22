@@ -8,9 +8,10 @@ const HeroSection = () => {
     <section className="w-full flex flex-col items-center bg-white">
       <div className="w-full flex justify-center relative">
         <img
-          src="https://www.prophype.com/wp-content/uploads/2024/03/1.jpg"
+          src="/hero-Image.webp"
+          loading="lazy"
           alt="Gurgaon Real Estate"
-          className="w-full max-h-[90vh] h-auto opacity-85 bg-transparent"
+          className="w-full max-h-[90vh] h-[90vh] object-cover opacity-85 bg-transparent"
         />
       </div>
       <div className="flex flex-col justify-center items-center absolute mt-20 md:mt-70 p-2">
